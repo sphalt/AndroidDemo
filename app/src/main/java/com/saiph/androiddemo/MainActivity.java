@@ -4,10 +4,16 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +32,18 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        RecyclerView rvCountries = (RecyclerView) findViewById(R.id.rvCountries);
+
+        //Get countries
+        List<String> countries = Arrays.asList(getResources().getStringArray(R.array.countries_array));
+
+        // Create adapter passing in the sample user data
+        CountryAdapter adapter = new CountryAdapter(countries);
+        // Attach the adapter to the recyclerview to populate items
+        rvCountries.setAdapter(adapter);
+        // Set layout manager to position the items
+        rvCountries.setLayoutManager(new LinearLayoutManager(this));
     }
 
     @Override
