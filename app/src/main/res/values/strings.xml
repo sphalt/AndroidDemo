@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">AndroidDemo</string>
     <string name="action_settings">Settings</string>
+    <string name="education_lbl">Education</string>
+    <string name="uic1">MS in Computer Science</string>
+    <string name="uic2">University of Illinois at Chicago | Graduating in May 2019 | GPA 3.71</string>
+    <string name="bits1">B.E.(Hons) in Computer Science</string>
+    <string name="bits2">Birla Institute of Technology and Science, Pilani | Graduated in Jun 2014 | GPA 5.76/10</string>
+    <string name="exp_lbl">Work Experience</string>
+
+    <string name="bmw1">Software Engineering Intern</string>
+    <string name="bmw2">BMW Technology Corporation</string>
+    <string name="bmw3">Create a proof of concept solution to automate testing of BMW connected mobile application and BMW connected in-car navigation application. The solution should seamless test both the systems using the same hardware</string>
+
+    <string name="popup1">Senior Mobile Developer</string>
+    <string name="popup2">Popup Technologies</string>
+    <string name="popup3">Designed and developed native Android and cross-platform applications for multiple clients. Worked with various Google APIs, Restful Apis, services etc.</string>
+    <string name="action_profile">Profile</string>
+
 </resources>

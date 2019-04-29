@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/photo" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sai Phaltankar" />
+
+            <TextView
+                android:id="@+id/tvEducationLbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/education_lbl" />
+            <TextView
+                android:id="@+id/tvEducationUIC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uic1" />
+            <TextView
+                android:id="@+id/tvEducationUIC2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uic2" />
+            <TextView
+                android:id="@+id/tvEducationBITS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bits1" />
+            <TextView
+                android:id="@+id/tvEducationBITS2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bits2" />
+            <TextView
+                android:id="@+id/tvExpLbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exp_lbl" />
+            <TextView
+                android:id="@+id/tvExpBmw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bmw1" />
+            <TextView
+                android:id="@+id/tvExpBmw2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bmw2" />
+            <TextView
+                android:id="@+id/tvExpBmw3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bmw3" />
+            <TextView
+                android:id="@+id/tvExpPopup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/popup1" />
+            <TextView
+                android:id="@+id/tvExpPopup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/popup2" />
+            <TextView
+                android:id="@+id/tvExpPopup3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/popup3" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
