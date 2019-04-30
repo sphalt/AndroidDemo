@@ -17,4 +17,24 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="LabelStyle">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">@dimen/default_margin_tex</item>
+    </style>
+
+    <style name="SubLabelStyle">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:paddingStart">@dimen/default_margin_tex</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingStart">@dimen/default_margin_tex</item>
+    </style>
+
 </resources>

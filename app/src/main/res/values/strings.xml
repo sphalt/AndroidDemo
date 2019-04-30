@@ -16,5 +16,6 @@
     <string name="popup2">Popup Technologies</string>
     <string name="popup3">Designed and developed native Android and cross-platform applications for multiple clients. Worked with various Google APIs, Restful Apis, services etc.</string>
     <string name="action_profile">Profile</string>
+    <string name="population">Population</string>
 
 </resources>

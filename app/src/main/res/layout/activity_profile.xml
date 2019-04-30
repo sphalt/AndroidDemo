@@ -26,68 +26,84 @@
                 android:id="@+id/tvName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sai Phaltankar" />
+                android:text="Sai Phaltankar"
+                android:layout_margin="@dimen/default_margin_card"
+                android:textSize="30dp"/>
 
             <TextView
                 android:id="@+id/tvEducationLbl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/education_lbl" />
+                android:text="@string/education_lbl"
+                style="@style/LabelStyle"/>
             <TextView
                 android:id="@+id/tvEducationUIC"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/uic1" />
+                android:text="@string/uic1"
+                style="@style/SubLabelStyle"/>
             <TextView
                 android:id="@+id/tvEducationUIC2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/uic2" />
+                android:text="@string/uic2"
+                style="@style/TextStyle"/>
             <TextView
                 android:id="@+id/tvEducationBITS"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/bits1" />
+                android:text="@string/bits1"
+                style="@style/SubLabelStyle"/>
             <TextView
                 android:id="@+id/tvEducationBITS2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/bits2" />
+                android:text="@string/bits2"
+                style="@style/TextStyle"/>
             <TextView
                 android:id="@+id/tvExpLbl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/exp_lbl" />
+                android:text="@string/exp_lbl"
+                style="@style/LabelStyle"/>
             <TextView
                 android:id="@+id/tvExpBmw"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/bmw1" />
+                android:text="@string/bmw1"
+                style="@style/SubLabelStyle" />
             <TextView
                 android:id="@+id/tvExpBmw2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/bmw2" />
+                android:text="@string/bmw2"
+                style="@style/SubLabelStyle"
+                android:textStyle="italic"/>
             <TextView
                 android:id="@+id/tvExpBmw3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/bmw3" />
+                android:text="@string/bmw3"
+                style="@style/TextStyle"/>
             <TextView
                 android:id="@+id/tvExpPopup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/popup1" />
+                android:text="@string/popup1"
+                style="@style/SubLabelStyle" />
             <TextView
                 android:id="@+id/tvExpPopup2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/popup2" />
+                android:text="@string/popup2"
+                style="@style/SubLabelStyle"
+                android:textStyle="italic"/>
             <TextView
                 android:id="@+id/tvExpPopup3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/popup3" />
+                android:text="@string/popup3"
+                style="@style/TextStyle"/>
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

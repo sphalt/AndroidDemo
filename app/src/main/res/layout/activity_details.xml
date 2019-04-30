@@ -21,58 +21,68 @@
             android:id="@+id/tvCountryName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Capital" />
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:padding="@dimen/default_margin_tex"/>
 
         <TextView
             android:id="@+id/tvCapitalLbl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Capital" />
+            android:text="Capital"
+            style="@style/LabelStyle"/>
         <TextView
             android:id="@+id/tvCapitalTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="" />
+            style="@style/TextStyle"/>
         <TextView
             android:id="@+id/tvPopulationLbl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Population" />
+            android:text="@string/population"
+            style="@style/LabelStyle"/>
         <TextView
             android:id="@+id/tvPopulationTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/TextStyle"
             android:text="" />
         <TextView
             android:id="@+id/tvAreaLbl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Area" />
+            android:text="Area"
+            style="@style/LabelStyle"/>
         <TextView
             android:id="@+id/tvAreaTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="" />
+            style="@style/TextStyle" />
         <TextView
             android:id="@+id/tvRegionLbl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Region" />
+            android:text="Region"
+            style="@style/LabelStyle"/>
         <TextView
             android:id="@+id/tvRegionTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="" />
+            style="@style/TextStyle" />
         <TextView
             android:id="@+id/tvSubregionLbl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sub Region" />
+            android:text="Sub Region"
+            style="@style/LabelStyle"/>
         <TextView
             android:id="@+id/tvSubregionTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="" />
+            style="@style/TextStyle" />
     </LinearLayout>
 
     <ProgressBar
